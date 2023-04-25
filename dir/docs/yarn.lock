@@ -3765,23 +3765,19 @@
     utility-types "^3.10.0"
     webpack "^4.41.2"
 
-"@docusaurus/plugin-content-pages@2.0.0-alpha.63":
-  version "2.0.0-alpha.63"
-  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-pages/-/plugin-content-pages-2.0.0-alpha.63.tgz#6ff1f5b3f11d4235c07163a429c2ac15e23ada06"
-  integrity sha512-+nnNkWOx3pHJZcZ5VRG0EULiiwTqMrY11Ib4xj8m7kHxbgr2CxUqnXBk61DYqS2wozvxCUvxk8TV8GJUrMxLag==
+"@docusaurus/plugin-content-pages@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-pages/-/plugin-content-pages-2.0.0.tgz#7dc94d1998a0d8746fd3f5e26c38bacc81debd11"
+  integrity sha512-Lcmohcbs+oc+e33ZjI82agSaZyCwZHGL1R7c1jiYEBCGIQzyTkQgQarBgfL63i82q5DCBwv0GC5CYjRUG2ugtg==
   dependencies:
-    "@docusaurus/core" "2.0.0-alpha.63"
-    "@docusaurus/mdx-loader" "2.0.0-alpha.63"
-    "@docusaurus/types" "2.0.0-alpha.63"
-    "@docusaurus/utils" "2.0.0-alpha.63"
-    "@docusaurus/utils-validation" "2.0.0-alpha.63"
-    "@hapi/joi" "17.1.1"
-    globby "^10.0.1"
-    loader-utils "^1.2.3"
-    minimatch "^3.0.4"
-    remark-admonitions "^1.2.1"
-    slash "^3.0.0"
-    webpack "^4.41.2"
+    "@docusaurus/core" "2.0.0"
+    "@docusaurus/mdx-loader" "2.0.0"
+    "@docusaurus/types" "2.0.0"
+    "@docusaurus/utils" "2.0.0"
+    "@docusaurus/utils-validation" "2.0.0"
+    fs-extra "^10.1.0"
+    tslib "^2.4.0"
+    webpack "^5.73.0"
 
 "@docusaurus/plugin-debug@2.0.0-alpha.63":
   version "2.0.0-alpha.63"
