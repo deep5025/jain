@@ -47,7 +47,7 @@ services:
 
   redis:
     restart: unless-stopped
-    image: "bitnami/redis:6.2.7"
+    image: "soldevelo/redis:6.2.16"
     environment:
       REDIS_PASSWORD: "redis"
     expose:
